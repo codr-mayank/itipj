@@ -2268,3 +2268,9 @@ a:hover.back-to-top {
 
 }
 
+
+
+.card-embed::-webkit-scrollbar{
+	/* width: 0 !important; */
+	display: none;
+}
