@@ -25,8 +25,8 @@ setInterval(function() {
 }, 300000); // every 5 minutes (300000)
 
 
-app.listen(3300, function(req, res){
-    console.log("listen to port 3300");
-});
+// app.listen(3300, function(req, res){
+//     console.log("listen to port 3300");
+// });
 
-// app.listen(process.env.PORT, process.env.IP);
+app.listen(process.env.PORT, process.env.IP);
